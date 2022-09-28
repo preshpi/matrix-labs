@@ -47,6 +47,10 @@ body {
     height: 100px;
   }
 
+  .icon{
+    color:#ffff;
+  }
+
   .service1{
       height: 152px;
       width: 254px;

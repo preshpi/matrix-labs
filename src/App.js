@@ -8,7 +8,7 @@ import Services from './components/Services';
 import Services2 from './components/Services2';
 import Projects from './components/Projects';
 //import Projects2 from './components/Projects2';
-import Team from './components/Team';
+//import Team from './components/Team';
 //import Testimony from './components/Testimony';
 // import Faq from './components/Faq';
 import Footer from './components/Footer';
@@ -33,8 +33,8 @@ function App() {
     <Services/>
     <Services2/>
     <Projects/>
-    <Team/>
-   {/* <Projects2/>
+   {/*   <Team/>
+  <Projects2/>
       
      <Testimony/> */}
       {/*<Faq/>*/}

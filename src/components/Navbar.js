@@ -45,14 +45,6 @@ function Navbar() {
                 </Link>
             </a>     
 
-            <a><Link to="team"  smooth={true} offset={50} duration={500}>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Team
-                </Link>
-            </a>   
             <a><Link to="contact"  smooth={true} offset={50} duration={500}>
                 <span></span>
                 <span></span>
@@ -83,7 +75,6 @@ function Navbar() {
              <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true}  duration={800}>About</Link></li>
              <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={-50} duration={500}>Tokenomics</Link></li>
              <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="project" smooth={true} offset={-100} duration={500}>Our services</Link></li>
-             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={2000} duration={500}>Team</Link></li>
              <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={2000} duration={500}>Contact</Link></li>
               <a>
                 <button className="px-3 py-1 bg-[#FF1700] rounded hover:text-white">DAPP</button>
