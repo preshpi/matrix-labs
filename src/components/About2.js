@@ -2,7 +2,7 @@ import React from 'react'
 
 function About2() {
   return (
-    <div className="bg-[#D5DFED] dark:bg-transparent">
+    <div name= 'tokenomics' className="bg-[#D5DFED] dark:bg-transparent">
      <div className="relative py-5">
           <img src={require('../images/sidebg.png')} className="w-full h-full object-cover absolute rounded-lg hidden:imp dark:imp"/>
           <div>
@@ -10,10 +10,11 @@ function About2() {
                 <h1 className="font-bold leading-2 tracking-wide text-3xl text-center">TOKENOMICS</h1>
                 </div>
           </div>
-          <div className="grid lg:grid-cols-3 m-8 py-5 dark:text-white gap-3 justify-center place-items-center">
-            <div className="h-[290px] lg:w-[356px] m-[46px] p-[16px] w-72  bg-[#E9E8E9] dark:bg-[#1E1F1F] mt-3 rounded-[20px] shadow-lg">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 m-8 py-5 dark:text-white gap-3 justify-center place-items-center">
+           
+            <div className="h-[290px] lg:w-[356px] m-[46px] p-[16px] w-72  bg-[#E9E8E9] dark:bg-[#1E1F1F] mt-3 rounded-[20px] shadow-lg" data-aos="fade-up-left">
                 <h1 className="font-bold tracking-wide text-2xl uppercase">Buy Tax</h1>
-                <div class="w-[150px] bg-gray-200 rounded-full">
+                <div class="w-[150px] dark:bg-gray-200 bg-gray-300 rounded-full">
                 <div class="bg-[#FF1700] text-xs font-medium text-black mt-3 text-center p-0.5 leading-none rounded-l-[50px] w-[25px]"> 25%</div>
                 </div>
                 <ul className="font-[nunito] mt-3">
@@ -26,9 +27,9 @@ function About2() {
                 </ul>
             </div>
 
-            <div className="h-[260px] lg:w-[356px] m-[46px] p-[16px] w-72  bg-[#E9E8E9] dark:bg-[#1E1F1F] mt-3 rounded-[20px] shadow-lg">
+            <div className="h-[260px] lg:w-[356px] m-[46px] p-[16px] w-72  bg-[#E9E8E9] dark:bg-[#1E1F1F] mt-3 rounded-[20px] shadow-lg" data-aos="slide-up">
                 <h1 className="font-bold tracking-wide text-2xl uppercase">Sell Tax</h1>
-                <div class="w-[150px] bg-gray-200 rounded-full">
+                <div class="w-[150px] dark:bg-gray-200 bg-gray-300 rounded-full">
                 <div class="bg-[#FF1700] text-xs font-medium text-black mt-3 text-center p-0.5 leading-none rounded-l-full w-[20px]"> 20%</div>
                 </div>
                 <ul className="font-[nunito] mt-3">
@@ -40,9 +41,9 @@ function About2() {
                 </ul>
             </div>
 
-            <div className="h-[280px] lg:w-[356px] m-[46px] p-[16px] w-72  bg-[#E9E8E9] dark:bg-[#1E1F1F] mt-3 rounded-[20px] shadow-lg">
+            <div className="h-[280px] lg:w-[356px] m-[46px] p-[16px] w-72  bg-[#E9E8E9] dark:bg-[#1E1F1F] mt-3 rounded-[20px] shadow-lg" data-aos="fade-down-right">
                 <h1 className="font-bold tracking-wide text-2xl uppercase">REBASE Info</h1>
-                <div class="w-[150px] bg-gray-200 rounded-full">
+                <div class="w-[150px] dark:bg-gray-200 bg-gray-300 rounded-full">
                 <div class="bg-[#FF1700] text-xs font-medium text-black mt-3 text-center p-0.5 leading-none rounded-l-full w-[19px]"> 18.7%</div>
                 </div>
                 <ul className="font-[nunito] mt-3">

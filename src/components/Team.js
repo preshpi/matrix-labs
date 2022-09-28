@@ -2,15 +2,15 @@ import React from 'react'
 
 function Team() {
   return (
-    <div className="relative bg-[#F5F5F5] dark:bg-transparent">
+    <div name='team' className="relative bg-[#F5F5F5] dark:bg-transparent">
                 <img src={require('../images/skybg.png')} className="w-full h-full object-cover absolute rounded-lg"/>
     <div className="m-8 p-8">
         <h1 className="dark:text-white text-5xl tracking-wider font-bold text-center">TEAM</h1>
         {/* <h1 className="text-4xl lg:text-5xl font-bold mt-5 tracking-widest leading-5 text-[#FF1700]">LODICOIN</h1> */}
     </div>
 
-    <div className="grid lg:grid-cols-3 flex justify-center items-center m-8">
-        <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[290px] p-5 m-5 rounded-lg grid place-items-center">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 flex justify-center items-center m-3 grid place-items-center gap-5 mb-8">
+        <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[290px] p-5 m-8 rounded-lg grid place-items-center" data-aos="fade-down">
             <div class="flex flex-wrap justify-center">
                 <div class="w-28 px-4">
                     <img src={require('../images/members1.jpg')} className="shadow rounded-full max-w-full h-auto align-middle border-none"/>
@@ -32,7 +32,7 @@ function Team() {
             </div>
         </div>
 
-        <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[290px] p-5 m-5 rounded-lg grid place-items-center">
+        <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[290px] p-5 m-8 rounded-lg grid place-items-center" data-aos="fade-up">
             <div class="flex flex-wrap justify-center">
                 <div class="w-28 px-4">
                     <img src={require('../images/members1.jpg')} className="shadow rounded-full max-w-full h-auto align-middle border-none"/>
@@ -54,7 +54,7 @@ function Team() {
             </div>
         </div>
 
-        <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[290px] p-5 m-5 rounded-lg grid place-items-center">
+        <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[290px] p-5 m-8 rounded-lg grid place-items-center" data-aos="fade-down">
             <div class="flex flex-wrap justify-center">
                 <div class="w-28 px-4">
                     <img src={require('../images/members1.jpg')} className="shadow rounded-full max-w-full h-auto align-middle border-none"/>

@@ -10,7 +10,7 @@ function Projects() {
 
         <div className="lg:grid-cols-5 grid place-items-center ">
 
-            <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[200px] p-5 m-5 rounded-lg">
+            <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[200px] p-5 m-5 rounded-lg" data-aos="zoom-out-left">
                 <div className=" grid place-items-center">
                 <div className="text-center">
                 <h1 className="text-[#FF1700] mb-4 uppercase">Connect your wallet</h1>
@@ -21,7 +21,7 @@ function Projects() {
 
             </div>
             <img src={require('../images/left.png')} className="imp w-12"/>
-            <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[200px] p-5 m-5 rounded-lg">
+            <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[200px] p-5 m-5 rounded-lg" data-aos="zoom-out-left">
                 <div className=" grid place-items-center">
                 <div className="text-center">
                 <h1 className="text-[#FF1700] mb-4">CREATE A TOKEN</h1>
@@ -31,7 +31,7 @@ function Projects() {
 
             </div>
             <img src={require('../images/left.png')} className="w-12"/>
-            <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[200px] p-5 m-5 rounded-lg">
+            <div className="dark:bg-[#262627] bg-[#E9E8E9] w-[310px] h-[200px] p-5 m-5 rounded-lg" data-aos="zoom-out-left">
                 <div className=" grid place-items-center">
                 <div className="text-center">
                 <h1 className="text-[#FF1700] mb-4">CREATE TOKEN PRESALE</h1>

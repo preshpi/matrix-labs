@@ -21,7 +21,7 @@ function About() {
             </div>  */}
             </div>
 
-            <div className=" grid md:grid-cols-2 lg:grid-cols-3">
+            <div className=" grid md:grid-cols-2 lg:grid-cols-3" data-aos="fade-up">
                 <div className="bg-[#E8E8E8] dark:bg-[#1E1E1E]  shadow-lg text-black text-2xl m-8 rounded-lg grid place-items-center">
                     <img src={require('../images/class1.png')} className=""/>
                     <p className="text-center dark:text-white text-black mt-3 mb-3">best strategic apy</p>

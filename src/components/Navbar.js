@@ -17,51 +17,56 @@ function Navbar() {
          </div>
         
           <ul className='hidden md:flex pr-4 uppercase gap-7 dark:text-[#FEFFFE] text-black nav-text'>
-        {/* <li><Link to="test1"  smooth={true} offset={50} duration={500}>Home</Link></li>
-        <li><Link to="test1"  smooth={true} offset={50} duration={500}>About</Link></li>
-        <li><Link to="test1"  smooth={true} offset={50} duration={500}>Blog</Link></li> */}
+            
+            <a><Link to="about"  smooth={true}  duration={500}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                About
+                </Link>
+            </a>     
 
-                    <a><Link to="about"  smooth={true}  duration={500}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        About
-                        </Link>
-                    </a>     
+            <a><Link to="tokenomics"  smooth={true} offset={-200} duration={500}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Tokenomics
+                </Link>
+            </a>     
 
-                    <a><Link to="service"  smooth={true} offset={-200} duration={500}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Services
-                        </Link>
-                    </a>     
+            <a><Link to="service"  smooth={true} offset={-200} duration={500}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                services
+                </Link>
+            </a>     
 
-                    <a><Link to="project"  smooth={true} offset={-200} duration={500}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Project
-                        </Link>
-                    </a>     
+            <a><Link to="team"  smooth={true} offset={50} duration={500}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Team
+                </Link>
+            </a>   
+            <a><Link to="contact"  smooth={true} offset={50} duration={500}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Contact
+                </Link>
+            </a>   
 
-                    <a><Link to="contact"  smooth={true} offset={50} duration={500}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Contact
-                        </Link>
-                    </a>   
+            <a>
+                <button className="px-3 py-1 bg-[#FF1700] rounded mt-3">DAPP</button>
+            </a> 
 
-                    <a>
-                        <button className="px-3 py-1 bg-[#FF1700] rounded mt-3">DAPP</button>
-                    </a> 
-
-                    <Toggle className="toggle"/>  
+            <Toggle className="toggle"/>  
                     
           </ul>
         
@@ -72,15 +77,16 @@ function Navbar() {
       
      </div>
 
-       <ul className={!nav ? 'hidden' : 'absolute dark:bg-[#000101] bg-[#F5F5F5]  w-full px-8 h-64 cursor-pointer rounded-lg shadow p-5'}>
+       <ul className={!nav ? 'hidden' : 'absolute dark:bg-[#000101] bg-[#F5F5F5]  w-full px-8 h-74 shadow-full cursor-pointer rounded-lg shadow p-5'}>
       <div className='flex flex-col my-4 nav-text2'>
-
-             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-transparent leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true}  duration={500}>About</Link></li>
-             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-transparent leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={-50} duration={500}>Services</Link></li>
-             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-transparent leading-6 text-base uppercase"><Link onClick={handleClose} to="project" smooth={true} offset={-100} duration={500}>Project</Link></li>
-             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={2000} duration={500}>Contact</Link></li>
+      <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true}  offset={-50} duration={500}>Home</Link></li>
+             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true}  duration={800}>About</Link></li>
+             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={-50} duration={500}>Tokenomics</Link></li>
+             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="project" smooth={true} offset={-100} duration={500}>Our services</Link></li>
+             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={2000} duration={500}>Team</Link></li>
+             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={2000} duration={500}>Contact</Link></li>
               <a>
-                <button className="px-3 py-1 bg-[#FF1700] rounded">DAPP</button>
+                <button className="px-3 py-1 bg-[#FF1700] rounded hover:text-white">DAPP</button>
               </a> 
              <Toggle/>
       </div>
