@@ -39,8 +39,8 @@ function Hero() {
         <div>
             <img className='w-full animate-pulse duration-75 transition-all h-auto md:block hidden lg:block' src={require('../images/matrix.png')} alt="/" data-aos="slide-left"/>
         </div>
-
-        <div className="gap-5 m-5  grid lg:flex text-center">
+                   
+        {/* <div className="gap-5 m-5  grid lg:flex text-center">
                 <a href="#_" class="rounded-md px-6 lg:px-8 py-3  overflow-hidden relative cursor-pointer border-2 font-medium border-black  dark:border-[#FF1700] hover:bg-transparent mx-3 shadow-lg">
                 <span class="relative text-[#FF1700] dark:text-white text-center text-[16px] text-xl"><a href='https://t.me/LODICOINSARMIESOFFICIAL' target="_blank">Telegram</a></span>
                 </a>
@@ -49,9 +49,9 @@ function Hero() {
                 <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-[#FF1700] rounded-md group-hover:mt-0 group-hover:ml-0"></span>
                 <span class="absolute inset-0 w-full h-full bg-white rounded-md "></span>
                 <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-[#FF1700] rounded-md opacity-0 group-hover:opacity-100 "></span>
-                <span class="relative text-black transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">DAPPs</span>
+                <span class="relative text-black transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">Connect wallet</span>
                 </a>
-        </div> 
+        </div>  */}
   
     </div>
     </div>
