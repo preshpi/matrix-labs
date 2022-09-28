@@ -4,7 +4,7 @@ function Services() {
   return (
     <div name='service'>
       <div className="relative  m-8 py-5">
-          <h1 className="font-[montserrat] text-3xl leading-8 tracking-wide dark:text-white uppercase w-[695px] h-[43px]">services provided by</h1>
+          <h1 className="font-[montserrat] lg:text-3xl text-2xl leading-8 tracking-wide dark:text-white uppercase w-[695px] h-[43px]">services provided by</h1>
           <h1 className="font-[montserrat] text-4xl font-bold leadeing-9 tracking-widest dark:text-[#FF1700] w-[695px] h-[56px] block">LODICOIN</h1>  
             <p className="text-3xl text-center font-semibold tracking-wider mt-8 leading-5 dark:text-white">Swap Tokens</p>
             
