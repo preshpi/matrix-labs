@@ -156,9 +156,24 @@ body {
   } */
 
   .class{
-    margin: 24px 99px 24px 99px;
-    padding: 40px 32px 40px 32px;
+    /* margin: 24px 142px 24px 142px;
+    padding: 40px 32px 40px 32px; */
     font-family: 'Poppins', sans-serif
+  }
+
+
+
+  .coin-text{
+    font-size: 26px;
+    text-align: center;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif; 
+  }
+
+  .coin-select{
+    position: relative;
+    height: 124px;
+    text-align: center;
   }
 
 

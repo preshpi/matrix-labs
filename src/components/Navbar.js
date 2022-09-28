@@ -13,7 +13,7 @@ function Navbar() {
      <div className='px-2 flex justify-between items-center w-full h-full bg-[#DCE7F5] text-black dark:text-white shadow-lg dark:bg-transparent cursor-pointer'>     
          <div className='flex items-center'>
             <img className="" src={require('../images/logolabs.png')}/>
-            <p className='logo-text'>MATRIX LABS</p>
+            <p className='logo-text'>LODICOIN</p>
          </div>
         
           <ul className='hidden md:flex pr-4 uppercase gap-7 dark:text-[#FEFFFE] text-black nav-text'>
