@@ -10,10 +10,10 @@ function Navbar() {
 
   return (
     <div className='w-screen h-[80px] z-10 fixed drop-shadow-lg'>
-     <div className='px-2 flex justify-between items-center w-full h-full bg-[#DCE7F5] text-black dark:text-white shadow-lg dark:bg-transparent cursor-pointer'>     
+     <div className='px-2 flex justify-between items-center w-full h-full bg-[#DCE7F5] text-black dark:text-white shadow-lg dark:bg-[#000101] dark:opacity-75 cursor-pointer'>     
          <div className='flex items-center'>
-            <img className="" src={require('../images/logolabs.png')}/>
-            <p className='logo-text'>LODICOIN</p>
+            <img className="w-40 " src="https://res.cloudinary.com/dpokiomqq/image/upload/v1664461959/LODICOIN_BURNER-removebg-preview_xu6oky.png"/>
+            {/* <p className='logo-text'>LODICOIN</p> */}
          </div>
         
           <ul className='hidden md:flex pr-4 uppercase gap-7 dark:text-[#FEFFFE] text-black nav-text'>
@@ -54,8 +54,8 @@ function Navbar() {
                 </Link>
             </a>   
 
-            <a>
-                <button className="px-3 py-1 bg-[#FF1700] rounded mt-3">DAPP</button>
+            <a href="https://dapps-lodicoin.vercel.app/" target="_blank">
+            <button className="px-3 py-1 bg-[#FF1700] rounded mt-3">DAPP</button>           
             </a> 
 
             <Toggle className="toggle"/>  
@@ -69,19 +69,19 @@ function Navbar() {
       
      </div>
 
-       <ul className={!nav ? 'hidden' : 'absolute dark:bg-[#000101] bg-[#F5F5F5]  w-full px-8 h-74 shadow-full cursor-pointer rounded-lg shadow p-5'}>
-      <div className='flex flex-col my-4 nav-text2'>
-      <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true}  offset={-50} duration={500}>Home</Link></li>
-             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true}  duration={800}>About</Link></li>
-             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={-50} duration={500}>Tokenomics</Link></li>
-             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="project" smooth={true} offset={-100} duration={500}>Our services</Link></li>
-             <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={2000} duration={500}>Contact</Link></li>
-              <a>
-                <button className="px-3 py-1 bg-[#FF1700] rounded hover:text-white">DAPP</button>
-              </a> 
-             <Toggle/>
-      </div>
-       </ul>
+              <ul className={!nav ? 'hidden' : 'absolute dark:bg-[#000101] bg-[#F5F5F5]  w-full px-8 h-74 shadow-full cursor-pointer rounded-lg shadow p-5'}>
+              <div className='flex flex-col my-4 nav-text2'>
+              <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true}  offset={-50} duration={500}>Home</Link></li>
+                    <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true}  duration={800}>About</Link></li>
+                    <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={-50} duration={500}>Tokenomics</Link></li>
+                    <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="project" smooth={true} offset={-100} duration={500}>Our services</Link></li>
+                    <li className="w-full mb-3 text-[#000101] dark:text-[#FEFFFE] hover:bg-[#f2f0f0] dark:hover:bg-gray- rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={2000} duration={500}>Contact</Link></li>
+                      <a href="https://dapps-lodicoin.vercel.app/" target="_blank" >
+                        <button className="px-3 py-1 bg-[#FF1700] rounded hover:text-white">DAPP</button>
+                      </a> 
+                    <Toggle/>
+              </div>
+              </ul>
     </div>
    
   )
