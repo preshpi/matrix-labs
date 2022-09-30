@@ -18,7 +18,8 @@ function Navbar() {
          </div>
         
             <ul className='hidden md:flex pr-4 uppercase gap-5 mx-5 dark:text-[#ffff] text-black nav-text'>
-              
+              <a href='/' className="mt-4">Home</a>
+
               <a><Link to="about"  smooth={true}  duration={500}>
                   <span></span>
                   <span></span>
@@ -64,7 +65,7 @@ function Navbar() {
                   </Link>
               </a>   
 
-              <a href="https://dapps-lodicoin.vercel.app/" target="_blank">
+              <a href="/dapp" target="_blank">
               <button className="px-3 py-1 bg-[#FF1700] rounded mt-3">DAPP</button>           
               </a> 
 
@@ -82,12 +83,13 @@ function Navbar() {
                       {/* mobile navbar */}
     <ul className={!nav ? 'hidden' : 'absolute dark:bg-[#000101] bg-[#F5F5F5]  w-full px-8 h-74 shadow-full cursor-pointer rounded-lg shadow p-5'}>
       <div className='flex flex-col my-4 nav-text2'>
+            <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase cursor-pointer"><a href='/'>Home</a></li>
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="about"  smooth={true} offset={-50} duration={500}>About</Link></li>
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="tokenomics"  smooth={true} offset={-30} duration={500}>Tokenomics</Link></li>
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="service" smooth={true} offset={-200} duration={500}>Our services</Link></li>
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="how" smooth={true} offset={-100} duration={500}>How it works</Link></li>
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="contact"  smooth={true} offset={50} duration={500}>Contact</Link></li>
-            <a href="https://dapps-lodicoin.vercel.app/" target="_blank" >
+            <a href="/dapp" target="_blank" >
               <button className="px-3 py-1 bg-[#FF1700] rounded hover:text-white">DAPP</button>
             </a> 
             <Toggle/>

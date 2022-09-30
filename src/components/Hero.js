@@ -17,7 +17,7 @@ function Hero() {
                 An equal amount of $LODI is taken from the liquidity pool on the destination chain and deposited as liquidity on the origin chain during a swap. To execute the transaction, there must be sufficient liquidity on the destination chain. The Lodicoin Bank Reserve is currently providing liquidity for the Lodicoin Bridge with a token allotment of 2,000,000 $LODI.
                 </p>
                 
-                <a href="#"><button className='mx-4 py-3 px-6 sm:w-[50%] lg:mt-16 my-6 bg-[#FF1700] rounded-lg shadow-lg uppercase hover:bg-red-600 dark:text-white'>Read more</button></a>
+                <a href="#"><button className='mx-4 py-3 px-7  lg:mt-16 my-6 bg-[#FF1700] rounded-lg shadow-lg uppercase hover:bg-red-600 dark:text-white'>Read more</button></a>
               
             </div> 
           </div>
@@ -36,7 +36,6 @@ function Hero() {
         <div className="m-5" data-aos="fade-right">         
         <h1 className="font-bold text-center mb-2 dark:text-gray-100">The LODICOIN FINANCE</h1>            
         <p className="text-[20px] font-[nunito] dark:text-white">A clone features of pancakesawap, a decentralized exchange in Binance Smart chain that uses an Automated Market Maker (AMM) model, utilizing $LODI interoperable smart contracts operating on multiple Blockchains. It acts as a working proof-of-concept trading platform for harnessing multi-chain swaps and liquidity mining to power $LODI. </p>
-        <a href=""><button className="mt-3 text-center bg-[#FF1700] rounded-full px-2 py-2 cursor-pointer text-white hover:text-black hover:bg-transparent border-2 border-black dark:border-white text-sm dark:text-white">READ MORE</button></a>
         </div>
       </div>
     

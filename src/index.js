@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { ThemeProvider } from './darkmode/themeContext';
-
+import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <ThemeProvider>
       <body className="bg-[#DCE7F5] dark:bg-[#000101] transition-all overflow-hidden">
         <main>
@@ -15,7 +15,7 @@ ReactDOM.render(
         </main>
       </body>
     </ThemeProvider>
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

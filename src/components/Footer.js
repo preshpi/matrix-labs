@@ -19,7 +19,7 @@ function Footer() {
       component={<p><FaChevronCircleUp className="dark:fill-red-500 w-10 text-3xl"/></p>}
     />
 
-    <div name='contact' className="relative lg:h-full py-8">
+    <div name='contact' className="relative lg:h-full py-8 font-[montserrat]">
     <div className="grid place-items-center">
                     {/* Background image */}
         <img src={require('../images/footer.png')} className="bottom w-full  h-full object-cover absolute"/>
