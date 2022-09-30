@@ -4,12 +4,14 @@ function About2() {
   return (
     <div name= 'tokenomics' className="bg-[#D5DFED] dark:bg-transparent">
      <div className="relative py-5">
+              {/* background image */}
           <img src={require('../images/sidebg.png')} className="w-full h-full object-cover absolute rounded-lg hidden:imp dark:imp"/>
           <div>
           <div className="text-black dark:text-white font-[montserrat] m-8 p-8">
                 <h1 className="font-bold leading-2 tracking-wide text-3xl text-center">TOKENOMICS</h1>
                 </div>
           </div>
+          
           <div className="grid lg:grid-cols-3 md:grid-cols-2 m-8 py-5 dark:text-white gap-3 justify-center place-items-center">
            
             <div className="h-[290px] lg:w-[356px] m-[46px] p-[16px] w-72  bg-[#E9E8E9] dark:bg-[#1E1F1F] mt-3 rounded-[20px] shadow-lg" data-aos="fade-up-left">

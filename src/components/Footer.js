@@ -2,7 +2,7 @@ import React from 'react'
 import ScrollToTop from "react-scroll-to-top";
 import { BsTwitter } from 'react-icons/bs';
 import { AiOutlineInstagram } from 'react-icons/ai';
-import { FaFacebookSquare } from 'react-icons/fa';
+import { FaFacebookSquare, FaChevronCircleUp } from 'react-icons/fa';
 import { FaDiscord } from 'react-icons/fa';
 import { SiTelegram } from 'react-icons/si';
 import { BsYoutube } from 'react-icons/bs';
@@ -11,30 +11,32 @@ import { TbWorld } from 'react-icons/tb';
 function Footer() {
   return (
     <div>
-
+        {/* Scroll to top */}
     <ScrollToTop  
       smooth
-      viewBox="0 0 24 24"
-      svgPath="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"
+      top="20"
+      width=""
+      component={<p><FaChevronCircleUp className="dark:fill-red-500 w-10 text-3xl"/></p>}
     />
 
     <div name='contact' className="relative lg:h-full py-8">
     <div className="grid place-items-center">
+                    {/* Background image */}
         <img src={require('../images/footer.png')} className="bottom w-full  h-full object-cover absolute"/>
+
         <div className="text-center grid place-items-center  text-white relative bottom">
             <div className="flex mt-16">
             <img src={require('../images/logo.png')} className="w-40 mb-8"/>
-            {/* <h3 className="font-[Roboto] text-3xl font-bold tracking-wide mt-8">LODICOIN</h3> */}
             </div>
             <p className="lg:text-xl font-light tracking-wider lg:w-[384px] mx-4 w-72 text-x">One stop destination for all Blockchain Solutions.</p>
             <div className="flex gap-3 text-3xl mx-2 lg:mx-8 mt-2 mb-5">
-            <a href='https://www.facebook.com/Lodicoins' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon icon" ><FaFacebookSquare/></a>
-            <a href='https://www.twitter.com/Lodicoins' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><BsTwitter/></a>
-            <a href='https://discord.com/invite/MV4MDjkPcS' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><FaDiscord/></a>
-            <a href='https://www.instagram.com/Lodicoins' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><AiOutlineInstagram/></a>
-            <a href='https://www.youtube.com/channel/UCYX5Hh7rMaLGsMuUO_X3jtg' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><BsYoutube/></a>
-            <a href='https://t.me/LODICOINSARMIESOFFICIAL' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><SiTelegram/></a>
-            <a href='https://lodicoins.com/' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><TbWorld/></a>
+                <a href='https://www.facebook.com/Lodicoins' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon icon" ><FaFacebookSquare/></a>
+                <a href='https://www.twitter.com/Lodicoins' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><BsTwitter/></a>
+                <a href='https://discord.com/invite/MV4MDjkPcS' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><FaDiscord/></a>
+                <a href='https://www.instagram.com/Lodicoins' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><AiOutlineInstagram/></a>
+                <a href='https://www.youtube.com/channel/UCYX5Hh7rMaLGsMuUO_X3jtg' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><BsYoutube/></a>
+                <a href='https://t.me/LODICOINSARMIESOFFICIAL' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><SiTelegram/></a>
+                <a href='https://lodicoins.com/' target="_blank" className="hover:text-white hover:opacity-10 cursor-pointer icon"><TbWorld/></a>
             </div>
         </div>
     </div>
