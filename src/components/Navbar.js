@@ -18,7 +18,7 @@ function Navbar() {
          </div>
         
             <ul className='hidden md:flex pr-4 uppercase gap-5 mx-5 dark:text-[#ffff] text-black nav-text'>
-              <a href='/' className="mt-4">Home</a>
+              <a href='/' target="_blank" className="mt-4">Home</a>
 
               <a><Link to="about"  smooth={true}  duration={500}>
                   <span></span>
