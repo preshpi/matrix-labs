@@ -7,8 +7,8 @@ function Dapp() {
               <img src={require('../images/linebg.png')} className="w-full h-full object-cover absolute rounded-lg"/>
               <div className="grid lg:grid-cols-2 place-content-center m-5">
                         {/* Text part */}
-            <div className="md:items-start lg:text-start text-center m-8 w-[400px] md:w-[500px] place-items-center">
-            <p className="tracking-wide text-white text-lg font-semibold m-4 block dark:text-white lg:leading-8 leading-7" data-aos="fade-left">
+            <div className="md:items-start lg:text-start dark:text-black text-center m-8 w-[400px] md:w-[500px] place-items-center">
+            <p className="tracking-wide  text-lg font-semibold m-4 block dark:text-white lg:leading-8 leading-7 text-black" data-aos="fade-left">
             LSP or Lodicoin Staking Protocol is a decentralize revolutionary approach to a financial asset, that makes staking more profitable and provides $LODI token holders with a high realistic crypto return. A decentralized coin on the Binance Smart Chain that is backed by the $LODICOIN Bank Reserve or BBR and is controlled by algorithms through APY, automatic staking, and compounding in your wallet, and multi-chain smart contracts providing the building blocks for the next generation of Defi development.
             </p>     
 
@@ -116,29 +116,29 @@ function Dapp() {
               </div> 
               </div>
 
-              <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:text-xl text-xl md:text-xl place-content-center m-5 mt-8 py-5">
+              <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:text-xl text-black text-xl md:text-xl place-content-center m-5 mt-8 py-5">
               <div className="flex font-serif text-white gap-5 justify-between m-5">
-              <p>Total locked:</p>
+              <p className="text-black dark:text-white">Total locked:</p>
               <p className="text-right text-[#FF1700]">2234Lodi</p>
-              <div className="hr"></div>
+              <div className="lg:hr"></div>
               </div>
 
               <div className="flex font-serif text-white gap-5 justify-between m-5">
-              <p>Lock date:</p>
+              <p className="text-black dark:text-white" >Lock date:</p>
               <p className="text-right text-[#FF1700]">30-01-2022</p>
-              <div className="hr"></div>
+              <div className="lg:hr"></div>
               </div>
 
               <div className="flex font-serif text-white gap-5 justify-between m-5">
-              <p>Released date:</p>
+              <p className="text-black dark:text-white">Released date:</p>
               <p className="text-right text-[#FF1700]">04-03-2022</p>
-              <div className="hr"></div>
+              <div className="lg:hr"></div>
               </div>
 
               <div className="flex font-serif text-white gap-5 justify-between m-5">
-              <p>Total reward earned:</p>
+              <p className="text-black dark:text-white">Total reward earned:</p>
               <p className="text-right text-[#FF1700]">56lodi</p>
-              <div className="hr"></div>
+              <div className="lg:hr"></div>
               </div>
               </div>
     </div>
