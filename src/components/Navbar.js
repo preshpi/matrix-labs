@@ -18,7 +18,7 @@ function Navbar() {
          </div>
         
             <ul className='hidden md:flex pr-4 uppercase gap-5 mx-5 dark:text-[#ffff] text-black nav-text'>
-              <a href='/' target="_blank" className="mt-4">Home</a>
+              <a href='/'  className="mt-4">Home</a>
 
               <a><Link to="about"  smooth={true}  duration={500}>
                   <span></span>
@@ -89,7 +89,7 @@ function Navbar() {
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="service" smooth={true} offset={-200} duration={500}>Our services</Link></li>
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="how" smooth={true} offset={-100} duration={500}>How it works</Link></li>
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="contact"  smooth={true} offset={50} duration={500}>Contact</Link></li>
-            <a href="/dapp" target="_blank" >
+            <a href="/dapp">
               <button className="px-3 py-1 bg-[#FF1700] rounded hover:text-white">DAPP</button>
             </a> 
             <Toggle/>
