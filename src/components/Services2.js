@@ -53,11 +53,12 @@ function Services2() {
           <li className="text-3xl text-center font-[nunito]">Ontology EVM</li>             
           </div>
         </div>
+        <div className="coin-select" data-aos="slide-up">
+          <div className="inline text-center">
+          <li className="text-3xl text-center font-[nunito]">Polygon</li>             
+          </div>
+        </div>
         
-
-        {/* <li className="text-3xl text-center font-[nunito]">Ethereum</li>         
-        <li className="text-3xl text-center font-[nunito]">Avalanche</li>
-        <li className="text-3xl text-center font-[nunito]">BitTorrent</li> */}
       </ul>  
               
           

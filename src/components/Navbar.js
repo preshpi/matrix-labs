@@ -17,7 +17,7 @@ function Navbar() {
             <img className="w-40 " src="https://res.cloudinary.com/dpokiomqq/image/upload/v1664461959/LODICOIN_BURNER-removebg-preview_xu6oky.png"/>
          </div>
         
-            <ul className='hidden md:flex pr-4 uppercase gap-7 dark:text-[#ffff] text-black nav-text'>
+            <ul className='hidden md:flex pr-4 uppercase gap-5 mx-5 dark:text-[#ffff] text-black nav-text'>
               
               <a><Link to="about"  smooth={true}  duration={500}>
                   <span></span>
@@ -51,7 +51,7 @@ function Navbar() {
                   <span></span>
                   <span></span>
                   <span></span>
-                  How it works
+                  How
                   </Link>
               </a>     
 
