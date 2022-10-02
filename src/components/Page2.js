@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar';
+import DappNav from './DappNav';
 import Dapp from './Dapp';
 import Footer from './Footer';
 function Page2() {
   return (
     <div>
-        <Navbar/>
+        <DappNav/>
         <Dapp/>
         <Footer/>
     </div>

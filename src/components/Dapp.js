@@ -1,21 +1,22 @@
 import React from 'react'
-
+import Modalbtn from './Modalbtn'
 function Dapp() {
   return (
-    <div className="py-8 overflow-hidden font-serif">
-                    {/* background image */}
-              <img src={require('../images/linebg.png')} className="w-full h-full object-cover absolute rounded-lg"/>
-              <div className="grid lg:grid-cols-2 place-content-center m-5">
-                        {/* Text part */}
-            <div className="md:items-start lg:text-start dark:text-black text-center m-8 w-[400px] md:w-[500px] place-items-center">
-            <p className="tracking-wide  text-lg font-semibold m-4 block dark:text-white lg:leading-8 leading-7 text-black" data-aos="fade-left">
-            LSP or Lodicoin Staking Protocol is a decentralize revolutionary approach to a financial asset, that makes staking more profitable and provides $LODI token holders with a high realistic crypto return. A decentralized coin on the Binance Smart Chain that is backed by the $LODICOIN Bank Reserve or BBR and is controlled by algorithms through APY, automatic staking, and compounding in your wallet, and multi-chain smart contracts providing the building blocks for the next generation of Defi development.
-            </p>     
+    <div className="py-3  overflow-hidden relative">
+                <div className="grid lg:grid-cols-2 place-content-center m-5">
+                    {/* Text part */}
+                <div className="md:items-start lg:text-start text-center m-8 w-[400px] md:w-[500px] place-items-center">
+                <p className="tracking-wide dark:text-white text-lg font-semibold m-4 block text-black lg:leading-8 leading-7" data-aos="fade-left">
+                SIFU INU, WORLDS MOST AIRDROPS WITH THE HIGHEST APY! <br/>
+                LSP or Lodicoin Staking Protocol is a decentralize revolutionary approach to a financial asset, that makes staking more profitable and provides $LODI token holders with a high realistic crypto return. A decentralized coin on the Binance Smart Chain that is backed by the $LODICOIN Bank Reserve or BBR and is controlled by algorithms through APY, automatic staking, and compounding in your wallet, and multi-chain smart contracts providing the building blocks for the next generation of Defi development.
+                </p>     
+                <Modalbtn/> 
+                </div>
 
-            </div>
-                        {/* Form part */}
+
+                                 {/* Form part */}
               <div className="items-center grid place-content-center font-serif py-8" data-aos="fade-right">
-              <div className="text-white relative opacity-80">            
+              <div className="text-white relative">            
               <div className="relative items-center justify-center bg-[#335fd9] rounded-lg shadow-lg h-[700px]">
               <div className="m-5 text-xl text-start">
               <h1 className="text-center font-bold text-3xl py-4">STAKE TOKEN</h1>
@@ -114,7 +115,7 @@ function Dapp() {
               </div>
               </div>
               </div> 
-              </div>
+                </div>
 
               <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:text-xl text-black text-xl md:text-xl place-content-center m-5 mt-8 py-5">
               <div className="flex font-serif text-white gap-5 justify-between m-5">
