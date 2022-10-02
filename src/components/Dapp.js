@@ -2,7 +2,7 @@ import React from 'react'
 import Modalbtn from './Modalbtn'
 function Dapp() {
   return (
-    <div className="py-3  overflow-hidden relative">
+    <div className="py-8  overflow-hidden relative">
                 <div className="grid lg:grid-cols-2 place-content-center m-5">
                     {/* Text part */}
                 <div className="md:items-start lg:text-start text-center m-8 w-[400px] md:w-[500px] place-items-center">
