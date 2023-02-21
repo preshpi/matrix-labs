@@ -3,6 +3,7 @@ import Modalbtn from './Modalbtn';
 import { AiOutlineClose, AiOutlineMenu  } from "react-icons/ai";
 import { Link, animateScroll as scroll } from 'react-scroll'
 import Toggle from '../darkmode/toggle';
+
 function Navbar() {
 
     const [nav, setNav] = useState(false)
@@ -66,6 +67,8 @@ function Navbar() {
                   </Link>
               </a>  
 
+              <Modalbtn/>
+
 
               <Toggle className="toggle"/>  
                       
@@ -87,6 +90,7 @@ function Navbar() {
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="service" smooth={true} offset={-200} duration={500}>Our services</Link></li>
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="how" smooth={true} offset={-100} duration={500}>How it works</Link></li>
             <li className="w-full mb-3 text-[#000101] dark:text-[#ffff] hover:bg-[#f2f0f0] dark:hover:bg-gray-200 rounded-lg dark:hover:text-black hover:mx-2 leading-6 text-base uppercase"><Link onClick={handleClose} to="contact"  smooth={true} offset={50} duration={500}>Contact</Link></li>
+           <Modalbtn/>
             <Toggle/>
       </div>
     </ul>

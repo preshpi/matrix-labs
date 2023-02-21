@@ -6,7 +6,9 @@ import { ThemeProvider } from './darkmode/themeContext';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <React.StrictMode>
   <BrowserRouter>
     <ThemeProvider>
       <body className="bg-[#DCE7F5] dark:bg-[#000101] transition-all overflow-hidden">
@@ -15,8 +17,10 @@ ReactDOM.render(
         </main>
       </body>
     </ThemeProvider>
-  </BrowserRouter>,
-  document.getElementById('root')
+  </BrowserRouter>
+    </React.StrictMode>
+
+
 );
 
 // If you want to start measuring performance in your app, pass a function
