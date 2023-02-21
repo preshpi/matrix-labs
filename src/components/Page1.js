@@ -7,9 +7,10 @@ import Services from './Services';
 import Services2 from './Services2';
 import Projects from './Projects';
 import Footer from './Footer';
+
 function Page1() {
   return (
-    <div>
+    <>
         <Navbar/>
         <Hero/>
         <About/>
@@ -18,7 +19,7 @@ function Page1() {
         <Services2/>
         <Projects/>
         <Footer/>
-    </div>
+    </>
   )
 }
 

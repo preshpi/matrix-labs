@@ -31,13 +31,13 @@ export default function Modal() {
                 <span class="w-full h-0.5 absolute bottom-0 group-active:bg-transparent left-0 bg-gray-100"></span>
                 <span class="h-full w-0.5 absolute bottom-0 group-active:bg-transparent right-0 bg-gray-100"></span>
                 Metamask
-                <img src={require('../images/fox.png')}/>
+                <img src={require('../images/fox.png')} alt="img"/>
             </a>
             <a href="#_" class="relative z-30 shadow-lg gap-5 justify-between mb-3 inline-flex items-center w-auto px-8 py-3 overflow-hidden font-bold text-gray-500 transition-all duration-500 border border-gray-200 rounded-md cursor-pointer group ease bg-gradient-to-b from-white to-gray-50 hover:from-gray-50 hover:to-white active:to-white">
                 <span class="w-full h-0.5 absolute bottom-0 group-active:bg-transparent left-0 bg-gray-100"></span>
                 <span class="h-full w-0.5 absolute bottom-0 group-active:bg-transparent right-0 bg-gray-100"></span>
                 W wallet
-                <img src={require('../images/fox.png')}/>
+                <img src={require('../images/fox.png')} alt="img"/>
             </a>
             <a href="#_" class="relative z-30 shadow-lg gap-5 justify-between mb-3 inline-flex items-center w-auto px-8 py-3 overflow-hidden font-bold text-gray-500 transition-all duration-500 border border-gray-200 rounded-md cursor-pointer group ease bg-gradient-to-b from-white to-gray-50 hover:from-gray-50 hover:to-white active:to-white">
                 <span class="w-full h-0.5 absolute bottom-0 group-active:bg-transparent left-0 bg-gray-100"></span>
